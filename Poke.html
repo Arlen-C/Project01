@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>POKE BOWL</title>
+</head>
+<body>
+    <div class='container'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+            <img src='images/pokeball.png' style='width: 25px; height: 25px;' class='mt-2'>
+            <a class="navbar-brand" href="#" style='align-content: flex-start; color: red;'>POKE BOWL</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="#" style='color: red;'>About Us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#" style='color: red;'>Menu</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style='color: red;'>
+                Hours</a>
+                <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item bg-dark" style="color: red;">M-F 11AM-10PM</a>
+                    <a class="dropdown-item bg-dark" style="color: red;">Sat 12PM-1AM</a>
+                    <a class="dropdown-item bg-dark" style="color: red;">Sun 12PM-9PM</a>
+                </div>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style='color: red;'>
+                Location</a>
+                <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                    <img src='images/map.JPG'>
+                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href='#' style="color: red;">Contact Us</a>
+                </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 form-outline-danger bg-dark" type="search" placeholder="Search" aria-label="Search" style="color: red;">
+                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class='row'>
+            <div class='bg-dark text-center pt-5'>
+                <div class='pt-5'>
+                    <div id="foodtrain" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner bg-dark" role="listbox">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/bowl1.jpg" alt="bowl1">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/bowl2.jpg" alt="bowl2">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/bowl3.jpg" alt="bowl3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class='col bg-dark pt-5 mt-5'> 
+                    <div class='row'>
+                        <div class='col bg-primary p-5 text-dark'>
+                            <div class="dropdown pt-1">
+                                <button class="dropbtn bg-dark">Choose Your Protein</button>
+                                <div class="dropdown-content">
+                                    <a href="#">Tuna</a>
+                                    <a href="#">Shrimp</a>
+                                    <a href="#">Salmon</a>
+                                    <a href="#">Tofu</a>
+                                </div>
+                            </div>
+                            <div class="dropdown pt-2">
+                                <button class="dropbtn bg-dark">Choose Your Base</button>
+                                <div class="dropdown-content">
+                                    <a href="#">White Rice</a>
+                                    <a href="#">Brown Rice</a>
+                                    <a href="#">Noodles</a>
+                                    <a href="#">Mixed Greens</a>
+                                </div>
+                            </div>
+                            <div class="dropdown pt-2">
+                                <button class="dropbtn bg-dark">Select A Marinade</button>
+                                <div class="dropdown-content">
+                                    <a href="#">Seasame Oil</a>
+                                    <a href="#">Sriracha</a>
+                                    <a href="#">Teriyaki</a>
+                                    <a href="#">House</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style='height:385px;' class='col bg-danger p-5 mr-1 text-dark'>
+                            <div class="col pt5">
+                                <figure>
+                                    <h3>Poke</h3>
+                                    <h4>Pronounced: po-kay</h4>
+                                    <figcaption>Poke is diced raw fish served either as an appetizer or a main course and is one of the main dishes of Native Hawaiian cuisine.</figcaption>
+                                    <audio
+                                        controls
+                                        src="Recording.m4a">
+                                            Your browser does not support the
+                                            <code>audio</code> element.
+                                    </audio>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
